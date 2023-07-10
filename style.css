@@ -148,3 +148,38 @@ font-weight: 800;
     height: 300px;
 }
 /* Add to cart Section end */
+
+
+/* latest deal section start */
+.deal-get{
+    margin-top: 128px;
+}
+
+.get-latest-deal{
+    
+    background-image: url('./Flower\ Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 71%;
+    margin: auto;
+    height: 400px;
+}
+
+.deal-content{
+    padding: 122px;
+}
+.deal-btn input{
+    margin-top: 48px;
+    width: 500px;
+    padding: 18px 30px;
+    border: 0px;
+}
+.deal-btn button{
+    border: 0;
+    background-color: #E55473;
+    padding: 18px 30px;
+    border-radius: 8px;
+}
+
+/* latest deal section end */
