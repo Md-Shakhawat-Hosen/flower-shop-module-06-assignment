@@ -58,7 +58,7 @@ border: 0;
 }
 .hot-deal{
     padding: 100px 0px;
-    width: 70%;
+    width: 80%;
     display: flex;
     gap:90px;
     align-items: center;
@@ -183,3 +183,34 @@ font-weight: 800;
 }
 
 /* latest deal section end */
+
+/* footer section start */
+.footer-section{
+    margin-top: 128px;
+    text-align: center;
+    height: 50vh;
+    color: rgba(255, 255, 255, 0.90);
+    background-color: #111010;
+    display: flex;
+    /* padding: 128px 0px 0px 0px; */
+}
+.footer-content{
+    width: 40%;
+    margin: auto;
+}
+.foot-des{
+    padding: 24px 0px 32px 0px;
+    font-family: Lato;
+font-size: 18px;
+}
+.foot-color{
+    color: #E55473;
+}
+.foot-copy{
+    color: rgba(255, 255, 255, 0.40);
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+
+}
+/* footer section end */
