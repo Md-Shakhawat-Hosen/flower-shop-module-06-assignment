@@ -10,6 +10,9 @@
   height: 850px;
   /* padding: 50px 240px 0px 240px; */
 }
+.banner-content-right img{
+    margin-top: 50px;
+}
 .banner-container{
     display: flex;
     justify-content: space-around;
@@ -19,9 +22,6 @@
     gap:90px; 
 }
 
-.banner-content-right img{
- 
-}
 .banner-head-title{
       color: #272727;
       font-family: Lato;
@@ -30,9 +30,121 @@
 
 
 }
-.banner-content-left{
+.banner-des{
+    margin: 32px 0px 32px 0px;
+    color: rgba(39, 39, 39, 0.60);
 
-      /* width: 800px; */
+font-family: Lato;
+font-size: 18px;
+
+font-weight: 400;
+line-height: 30px;
+}
+.common-btn{
+    padding: 20px 43px;
+    color: white;
+    border-radius: 8px;
+background-color: #E55473;
+border: 0;
 }
 
 /* Banner content style  end */
+
+/* hot deal section start */
+.deal-section{
+    margin: 128px 0px 128px 0px;
+    background-color: rgba(229, 84, 115, 0.05);
+
+}
+.hot-deal{
+    padding: 100px 0px;
+    width: 70%;
+    display: flex;
+    gap:90px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.deal-des{
+    margin: 24px 0px 24px 0px;
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+
+font-weight: 400;
+line-height: 30px;
+}
+.hot-title{
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+
+}
+.hot-seal{
+    color: #E55473;
+}
+.deal-content{
+    text-align: center;
+}
+
+/* hot section end */
+
+
+/* Instagram section start */
+.insta{
+    text-align: center;
+}
+.insta-des{
+    margin:24px 0px 48px 0px;
+}
+.instagram-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:24px;
+}
+
+/* Instagram section end */
+
+/* Add to cart Section start */
+.new-cart{
+    margin-top: 128px;
+}
+.cart-des{
+    margin: 24px 0px 48px 0px;
+}
+.cart-title{
+    text-align: center;
+}
+.shop-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.card-shop{
+    /* background-color: aqua; */
+    width: 342px;
+    box-shadow: 5px 5px 10px black;
+}
+.card-content{
+    text-align: center;
+    padding: 20px;
+}
+.price{
+    color: #E55473;
+}
+.cart-btn{
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #E55473;
+    color:white;
+    margin-top: 24px;
+}
+.card-img img{
+    width: 342px;
+    height: 300px;
+}
+/* Add to cart Section end */
