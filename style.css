@@ -107,6 +107,9 @@ line-height: 30px;
   text-align: center;
   margin-bottom: 50px;
 }
+.service img{
+  margin-bottom: 20px;
+}
 .all-service{
   width: 75%;
   padding: 87px;
