@@ -48,6 +48,56 @@
 
 /* Banner content style  end */
 
+/* Flower feature section start */
+
+.feature-flower-title{
+  margin-top: 180px;
+  text-align: center;
+}
+.feature-des{
+  margin-top: 24px;
+  color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.feature-caption{
+  margin-top: 32px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+.flowers-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:24px;
+  margin-top: 50px;
+}
+
+.flower{
+  background-color: rgba(167, 33, 98, 0.15);
+  width: 460px;
+  height: 530px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.flower img{
+  padding-top: 102px;
+  padding-left: 70px;
+}
+.last-flower img{
+  padding-top: 59px;
+}
+.middle-flower{
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.last-flower{
+ background-color: rgba(71, 125, 17, 0.15);
+}
+/* Flower feature section end */
+
 /* hot deal section start */
 .deal-section {
   margin: 128px 0px 128px 0px;
