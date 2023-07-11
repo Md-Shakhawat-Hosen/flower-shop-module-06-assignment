@@ -98,6 +98,31 @@ line-height: 30px;
 }
 /* Flower feature section end */
 
+
+/* our service section start here */
+.service-feature{
+  margin-top: 128px;
+}
+.service-title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.all-service{
+  width: 75%;
+  padding: 87px;
+  gap:100px;
+  background-color: rgba(39, 39, 39, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.service{
+  text-align: center;
+}
+
+/* our service section end */
+
 /* hot deal section start */
 .deal-section {
   margin: 128px 0px 128px 0px;
