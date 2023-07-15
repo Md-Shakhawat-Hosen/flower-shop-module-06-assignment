@@ -306,6 +306,23 @@
 
 /* Media query for small devices start */
 @media screen and (max-width: 576px) {
+  .banner-content-right img{
+    width: 100%;
+    height: auto;
+  }
+  .banner-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around;
+    align-items: center; */
+    /* width: 80%;
+    margin: auto; */
+    gap: 90px;
+    flex-direction: column;
+}
+.banner{
+  height: auto;
+}
   .all-service {
     width: 70%;
     padding: 10px 0px;
