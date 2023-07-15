@@ -50,77 +50,76 @@
 
 /* Flower feature section start */
 
-.feature-flower-title{
+.feature-flower-title {
   margin-top: 180px;
   text-align: center;
 }
-.feature-des{
+.feature-des {
   margin-top: 24px;
-  color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
-.feature-caption{
+.feature-caption {
   margin-top: 32px;
   text-align: center;
   text-decoration-line: underline;
 }
 
-.flowers-card{
+.flowers-card {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap:24px;
+  gap: 24px;
   margin-top: 50px;
 }
 
-.flower{
+.flower {
   background-color: rgba(167, 33, 98, 0.15);
   width: 460px;
   height: 530px;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
 }
-.flower img{
+.flower img {
   padding-top: 102px;
   padding-left: 70px;
 }
-.last-flower img{
+.last-flower img {
   padding-top: 59px;
 }
-.middle-flower{
+.middle-flower {
   background-color: rgba(5, 151, 160, 0.15);
 }
-.last-flower{
- background-color: rgba(71, 125, 17, 0.15);
+.last-flower {
+  background-color: rgba(71, 125, 17, 0.15);
 }
 /* Flower feature section end */
 
-
 /* our service section start here */
-.service-feature{
+.service-feature {
   margin-top: 128px;
 }
-.service-title{
+.service-title {
   text-align: center;
   margin-bottom: 50px;
 }
-.service img{
+.service img {
   margin-bottom: 20px;
 }
-.all-service{
+.all-service {
   width: 75%;
   padding: 87px;
-  gap:100px;
+  gap: 100px;
   background-color: rgba(39, 39, 39, 0.05);
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
 }
-.service{
+.service {
   text-align: center;
 }
 
@@ -225,18 +224,17 @@ line-height: 30px;
 .deal-get {
   margin-top: 128px;
 }
-.deal-title{
-    color: #272727;
-font-family: Lato;
-font-size: 40px;
-font-weight: 800;
-
+.deal-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
 }
-.deal-des-para{
-    color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
+.deal-des-para {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
 }
 .get-latest-deal {
   background-image: url("./Flower\ Asset/Rectangle 9.png");
@@ -296,3 +294,34 @@ font-weight: 400;
   font-weight: 400;
 }
 /* footer section end */
+.hide {
+  display: none;
+}
+
+/* Media query section start */
+
+/* Media query for small devices start */
+@media screen and (max-width: 576px) {
+  .all-service {
+    width: 70%;
+    padding: 10px 0px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hot-deal {
+  padding: 100px 0px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  margin: auto;
+}
+.deal-content{
+  padding: 0px;
+}
+}
+
+/* Media query for small devices end */
+
+/* Media query section end */
